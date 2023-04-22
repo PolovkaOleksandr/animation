@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'HipnoFont';
+  src:  url('assets/fonts/HipnoFont.eot?rrxn75');
+  src:  url('assets/fonts/HipnoFont.eot?rrxn75#iefix') format('embedded-opentype'),
+    url('assets/fonts/HipnoFont.ttf?rrxn75') format('truetype'),
+    url('assets/fonts/HipnoFont.woff?rrxn75') format('woff'),
+    url('assets/fonts/HipnoFont.svg?rrxn75#HipnoFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'HipnoFont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter-square:before {
+  content: "\f081";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-phone-square:before {
+  content: "\f098";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-youtube-square:before {
+  content: "\f166";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}

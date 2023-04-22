@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  
 }
 ol, ul {
 	list-style: none;
@@ -46,6 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+  text-decoration: none;
+}
 .list{
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +62,7 @@ table {
 li:not(:nth-child(3n + 3 + 3)) {
     margin-right: 30px;
 }
-.body{
+.main{
     margin: 94px 185px 94px 208px;
 }
 @font-face {
@@ -67,6 +72,14 @@ li:not(:nth-child(3n + 3 + 3)) {
 @font-face {
     font-family:'Roboto-Regular' ;
     src: url(./assets/fonts/Roboto-Regular.ttf);
+  }
+@font-face {
+    font-family:'Raleway-Bold' ;
+    src: url(./assets/fonts/Raleway-Bold.ttf);
+  }
+@font-face {
+    font-family:'Roboto-Medium' ;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
   }
   .h2{
     font-family: 'Roboto-Bold';
@@ -93,7 +106,7 @@ margin-left: 24px;
     width: 370px;
   }
   
-  .text {
+.text {
     position: absolute;
     top: 0;
     left: 0;
@@ -107,9 +120,113 @@ margin-left: 24px;
     height: 100%;
     transform: translateX(100%);
     transition: transform 0.3s linear;
-  }
+}
   
-  .box2:hover .text {
+.box2:hover .text {
     background-color: #2196f3;
     transform: translateX(0%);
-  }
+}
+.portfolio{
+    color:#2196F3;
+}
+.portfolio::after {
+    content: "";
+    display: block;
+    background: #2196F3;
+    border-radius: 2px;
+    width: 78px;
+    height: 4px;
+}
+.header-list{
+  display:flex;
+}
+.Web{
+  color: #2196F3;
+}
+.WebStudio{
+  color:#000000;
+  font-family: 'Raleway-Bold'; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.header-subtitle{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.stydia{
+  margin-right: 48px;
+}
+.portfolio{
+  margin-right: 52px;
+}
+.kontakts{
+  margin-right: 312px;
+}
+
+.div-logo{
+  width: 145px;
+height: 31px;
+margin-left: 215px;
+margin-right: 93px;
+margin-top: 24px;
+}
+.header-div{
+  position: fixed;
+  left:0;
+  top:0;
+  z-index:1;
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  background-color: white;
+}
+.header-list-div{
+  margin-top: 32px;
+}
+.header-item{
+  margin-bottom: 28px;
+}
+.header-subtitle{
+  margin-bottom: 28px;
+  font-family: 'Roboto-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.portfolio-h2{
+  color:#2196F3;
+}
+.gmailandtell{
+  font-family: 'Roboto-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+.gmail-div{
+  margin-top: 28px;
+}
+.tell-div{
+  margin-top: 28px;
+}
+.icon{
+  margin-right: 10px;
+}
+.gmail{
+  margin-right: 30px;
+}
+
